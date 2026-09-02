@@ -8,7 +8,7 @@ class Solution {
             
             // If the middle element is smaller than its right neighbor,
             // we are on an upward slope. The peak must be on the right side.
-            if (nums[mid] < nums[mid + 1]) {
+            if (nums[mid] < nums[mid+1]) {
                 left = mid + 1;
             } 
             // Otherwise, we are on a downward slope. 
